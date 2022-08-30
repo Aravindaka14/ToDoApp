@@ -1,6 +1,13 @@
+#main {
+    background-color: cornsilk;
+    height: 95vh;
+    border-radius: 10px;
+}
+
 h1 {
     color: #27aedb;
     text-align: center;
+    padding-top: 30px;
 }
 
 
@@ -9,12 +16,19 @@ button {
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
+
 }
 
 #task {
     margin-left: 40%;
     align-items: center;
     text-align: center;
+}
+
+.content {
+    margin-left: 40%;
+
 }
 
 .bg-pink {

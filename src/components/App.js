@@ -24,7 +24,7 @@ function App() {
 				<input type="text" id="task" onChange={(e) => setInput(e.target.value)} value={input} required />
 				<button id="btn" type="submit" >Add task</button>
 			</form>
-			<div>
+			<div className="content">
 				{
 					list.map((ele, i) => {
 						return (
